@@ -1,0 +1,56 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "@月黑风高食肉虎"
+email: dewafer@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  欢迎来到<a href="http://weibo.com/dewafer">@月黑风高食肉虎</a>的博客！
+  本博客展示的是除技术以外的内容（其实也没什么内容）。
+  技术类文章请访问<a href="http://www.dewafer.com">dewafer.com</a>
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blog.yinqiu.wang" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: dewafer
+github_username:  dewafer
+
+tagline:             '一个可有可无的博客'
+paginate:            5
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.(doesn't work in 3.0)
+permalink:           pretty
+# relative_permalinks: true
+
+# Custom vars
+# version:             0.0.0
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
